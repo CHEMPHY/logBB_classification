@@ -19,8 +19,10 @@ import chemaxon.marvin.plugin.*;
 public class featureGeneration {
 	public static void main(String[] args) {
 		try {
-			String inputFileName = "../data/mol.txt";
-			String outputFileName = "../data/features.csv";
+			// String inputFileName = "../data/mol.txt";
+			// String outputFileName = "../data/features.csv";
+			String inputFileName = args[0];
+			String outputFileName = args[1];
 			String data;
 			BufferedReader br = new BufferedReader(new FileReader(inputFileName));
 			BufferedWriter bw = new BufferedWriter(new FileWriter(outputFileName));
