@@ -16,11 +16,9 @@ import chemaxon.marvin.calculations.*;
 import chemaxon.marvin.plugin.*;
 
 
-public class featureGeneration {
+public class CDKfeatureGeneration {
 	public static void main(String[] args) {
 		try {
-			// String inputFileName = "../data/mol.txt";
-			// String outputFileName = "../data/features.csv";
 			String inputFileName = args[0];
 			String outputFileName = args[1];
 			String data;
